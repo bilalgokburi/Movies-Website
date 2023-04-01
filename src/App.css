@@ -1,0 +1,415 @@
+/* MAİN */
+
+main {
+  background-color: #141212;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.punto {
+  margin-top: 35px;
+}
+
+.punto > * {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.punto > *:hover {
+  opacity: 1;
+}
+
+.punto h1 {
+  font-size: 100px;
+  margin-left: 40px;
+}
+
+.punto h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.punto h2 {
+  font-size: 60px;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.punto h3 {
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing img {
+  width: 400px;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: rgba(246, 237, 237, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin-top: 35px;
+}
+
+main .pg-header {
+  background: #e6e6e6;
+  padding: 40px 0;
+}
+
+main .pg-header h1 {
+  color: #333;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main .content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* ABOUT */
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.about h2::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  bottom: -6px;
+  height: 2px;
+  background-color: #666;
+  left: 0;
+}
+
+/*  BREADCRUMP */
+
+.header {
+  display: flex ;
+  justify-content: space-between;
+}
+
+#search {
+  font-size: 1.3rem;
+  border: 0;
+  padding: 5px 15px;
+  color: #444;
+}
+
+#search::placeholder {
+  opacity: 0.5;
+}
+
+#search:focus {
+ outline-color: #777;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  color: #000;
+}
+
+@media all and (max-width: 991px) {
+  .breadcrumb.justify-content-end {
+    justify-content: flex-start !important;
+  }
+}
+
+/* MOVİES */
+
+.movies-row {
+  row-gap: 40px;
+}
+
+.movies-row .card .card-body {
+  background: #f5f5f5;
+}
+
+.card-title {
+  color: #000;
+}
+
+.movies-row .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.movies-row .card-text {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* CARD */
+
+.card {
+  border-radius: 0;
+  box-shadow: 0px 10px 10px #eee;
+  height: 100%;
+}
+
+.card .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card .img-wrap {
+  height: 620px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+.card .img-wrap img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.card .price {
+  color: #fff;
+}
+
+.card .btn-primary {
+  font-weight: 600;
+}
+
+.card .vote {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 25px 70px 30px 50px;
+}
+
+/* SINGLE PRODUCT */
+
+.single-p img {
+  width: 100%;
+  box-shadow: 0px 10px 10px #474646;
+}
+
+.single-p h2 {
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.single-p h2::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  bottom: -6px;
+  height: 2px;
+  background-color: #666;
+  left: 0;
+}
+
+.single-p .btn-primary {
+  font-weight: 600;
+}
+
+.single-p .vote-average {
+  font-size: 22px;
+}
+
+.single-p .vote-average strong {
+  color: #fff;
+}
+
+/* SIGN UP */
+
+#form-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  color: #000;
+  min-width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+
+main#form {
+  padding: 30px 0;
+  display: flex;
+}
+
+#form-container h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control .error {
+  color: #ff0000;
+}
+
+#form-container button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#form-container select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#form-container select:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+/* SIGN IN */
+.log-in {
+  padding: 80px 60px !important;
+}
+
+/* HEADER */
+
+header {
+  padding: 20px 0;
+  background-color: #000;
+}
+
+header .logo {
+  transform: rotate(-6deg);
+  transition: all 0.3s ease;
+}
+
+header .logo:hover {
+  transform: rotate(0deg);
+}
+
+header .brand {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Leckerli One", cursive;
+  background-color: #2d2d2d;
+  border-radius: 40px;
+  border-bottom: 2px solid #6294de;
+  text-shadow: 2px 2px 0px #000;
+}
+
+header .nav > * {
+  margin-left: 15px;
+}
+
+header .nav-link {
+  font-weight: 700;
+  color: #999;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+header .nav-link:hover {
+  color: #fff;
+}
+
+header .nav-link:focus {
+  color: #fff;
+}
+
+.diff-active {
+  color: #fff !important;
+  background-color: #5dbea3 !important;
+}
+
+.diff-active2 {
+  background-color: #ffbd03 !important;
+  color: #fff !important;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px 0 100px 0;
+  background-color: #444;
+}
+
+footer .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 10px;
+}
+
+footer .nav-link:hover {
+  color: #fff;
+}
+
+footer .nav-link.active {
+  color: #fff;
+  border-bottom: 1px solid #666;
+}
+
+footer .copyrights {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer .copyrights a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer .copyrights a:hover {
+  color: #fff;
+}
