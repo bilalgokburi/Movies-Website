@@ -10,11 +10,11 @@ here is a project by working API in it and showing current popular movies on  UI
 - Bootstrap
 - React-router-dom
 - Using Movie DB Api and fetch data by axios.
-- React Formik / Login-Register
-- Using React Hook Form for Validation
+- Using React Formik for Validations
+- Login-Register
 
 ## Kurulum
-- git clone https://github.com/bilalgokburi/vatansoft-weather-app 
+- git clone https://github.com/bilalgokburi/movies-website
 1. npm update 
 2. npm start
 
