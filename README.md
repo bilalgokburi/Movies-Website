@@ -2,7 +2,7 @@
 
 ## Description
 
-here is a project by working API in it and showing current popular movies on  UI.  
+Here is a project by working API in it and showing current popular movies on  UI.  
 
 ## Features
 
@@ -13,7 +13,7 @@ here is a project by working API in it and showing current popular movies on  UI
 - Using React Formik for Validations
 - Login-Register
 
-## Kurulum
+## Installiation
 - git clone https://github.com/bilalgokburi/movies-website
 1. npm update 
 2. npm start
